@@ -1,0 +1,1 @@
+*{margin:0}img{max-width:100%;height:auto}p{margin:10px}.products{display:flex;flex-wrap:wrap;justify-content:center}.cart{margin:10px;border:1px solid lightgrey}@media (min-width: 1000px){.home{max-width:1000px;margin:auto}.cart{max-width:30%;margin:10px}}
