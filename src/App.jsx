@@ -1,14 +1,11 @@
 import React from 'react'
 import './App.css'
-import pic from '/src/assets/BLOGINTRO.jpg'
+import Home from './pages/home';
 
 const App = () => {
   return(
     <>
-    <div className='home'>
-      <h1>Welcome to Chola Bara.</h1>
-      <img src={pic}/>
-    </div>
+    <Home/>
     </>
   );
 };
