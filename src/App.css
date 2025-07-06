@@ -11,6 +11,7 @@ p{
     margin: 10px;
 }
 
+
 .products{
     display: flex;
     flex-wrap: wrap;
@@ -19,8 +20,7 @@ p{
 
 
 .cart{
-    max-width: 40%;
-    margin: 5px;
+    margin: 10px;
     border: 1px solid lightgrey;
 }
 
@@ -32,7 +32,7 @@ p{
     }
 
     .cart{
-        max-width: 20%;
+        max-width: 30%;
         margin: 10px;
     }
 }
