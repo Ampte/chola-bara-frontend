@@ -20,6 +20,7 @@ img{
     border: none;
     background-color: rgb(58, 58, 58);
     color: white;
+    font-size: large;
 }
 
 .sign-up:hover{
@@ -94,6 +95,29 @@ img{
     padding: 10px;
     background-color: rgb(58, 58, 58);
     color: white;
+}
+
+.sign-up-form{
+    max-width: 80%;
+    margin: auto;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+}
+
+.sign-up-btn{
+    width: 100%;
+    padding: 10px;
 }
 
 @media(min-width: 1000px) {

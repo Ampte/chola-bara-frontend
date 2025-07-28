@@ -1,7 +1,11 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 
  const Navbar = () => {
 
+    const Navigate = useNavigate();
+
+    const [userName, setUserName] = useState();
     const [sidebar, setSidebar] = useState(false);
 
     const open = () => {
@@ -12,12 +16,21 @@ import React, { useState } from 'react'
         setSidebar(false);
     }
 
+    useEffect(() => {
+        const name  = localStorage.getItem("name");
+        if(name){
+            setUserName(name);
+        }else{
+            setUserName("Sign Up");
+        }
+    },[])
+
     return(
         <>
         <div className='navbar'>
             <h1>Kaderik</h1>
             <div className='nav-btn'>
-                <button className='sign-up'>Sign Up</button>
+                <button className='sign-up' onClick={() => Navigate('/sign-up')}>{userName}</button>
                 <button className='bar' onClick={open}><i class="fa-solid fa-bars-staggered"></i></button>
             </div>
         </div>
