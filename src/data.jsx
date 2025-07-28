@@ -6,4 +6,7 @@ export const products = [
     {id: 5, name: "GRECIILOOKS Oversized Shirt for Women", price: 399, image: "https://m.media-amazon.com/images/I/61j+kZSF8tL._SY741_.jpg"},
     {id: 6, name: "Van Heusen Men's Cotton Regular Fit", price: 747, image: "https://m.media-amazon.com/images/I/71af25JeJ1L._SX569_.jpg"},
     {id: 7, name: "JVX Jeans for Men", price: 599, image: "https://m.media-amazon.com/images/I/515zoW6cDdL._SY741_.jpg"},
+    {id: 8, name: "JVX Jeans for Men", price: 599, image: "https://m.media-amazon.com/images/I/515zoW6cDdL._SY741_.jpg"},
+    {id: 9, name: "JVX Jeans for Men", price: 599, image: "https://m.media-amazon.com/images/I/515zoW6cDdL._SY741_.jpg"},
+    {id: 10, name: "JVX Jeans for Men", price: 599, image: "https://m.media-amazon.com/images/I/515zoW6cDdL._SY741_.jpg"},
 ];
